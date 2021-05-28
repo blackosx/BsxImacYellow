@@ -1,9 +1,9 @@
-# BsxImacYellow_
+# BsxImacYellow
 A set of PNG files wrapped in Apple .icns file format suitable for using as a theme for OpenCanopy which is part of OpenCore.
 
-<img src="https://github.com/blackosx/BsxImacYellow_/blob/main/preview_ui.jpg" alt="theme_preview" border="0">
+<img src="https://github.com/blackosx/BsxImacYellow/blob/main/preview_ui.jpg" alt="theme_preview" border="0">
 
-<img src="https://github.com/blackosx/BsxImacYellow_/blob/main/preview_password.jpg" alt="theme_preview" border="0">
+<img src="https://github.com/blackosx/BsxImacYellow/blob/main/preview_password.jpg" alt="theme_preview" border="0">
 
 **Requirements**<br>
 [OpenCore](https://github.com/acidanthera/OpenCorePkg) with OpenCanopy installed and configured.
@@ -17,22 +17,22 @@ Please refer to [OpenCore beauty treatment](https://dortania.github.io/OpenCore-
 
 
 **Using this theme**<br>
-This repository contains a Blackosx directory with a sub-directory BsxImacYellow_ which contains all necessary ICNS files for the theme.
+This repository contains a Blackosx directory with a sub-directory BsxImacYellow which contains all necessary ICNS files for the theme.
 
 If you don't have a EFI/OC/Resources/Image/Blackosx directory in EFI/OC/Resources/Image/<br>
 - then add the Blackosx directory to EFI/OC/Resources/Image/ directory in your systems EFI System Partition.
 
 If you already have EFI/OC/Resources/Image/Blackosx/<br>
-- then just add the BsxImacYellow_ directory
+- then just add the BsxImacYellow directory
 
 Either way, for this theme you will want to end up having
-EFI/OC/Resources/Image/Blackosx/BsxImacYellow_
+EFI/OC/Resources/Image/Blackosx/BsxImacYellow
 
-You can switch the icon set used by OpenCanopy by changing the 'PickerVariant' key in OpenCore's config.plist to match the vendor and theme name of the icon set you want to display. So to instruct OpenCanopy to use this icon set you want to set the PickerVariant key to Blackosx\BsxImacYellow_
+You can switch the icon set used by OpenCanopy by changing the 'PickerVariant' key in OpenCore's config.plist to match the vendor and theme name of the icon set you want to display. So to instruct OpenCanopy to use this icon set you want to set the PickerVariant key to Blackosx\BsxImacYellow
 
 ```
                 <key>PickerVariant</key>
-                <string>Blackosx\BsxImacYellow_</string>
+                <string>Blackosx\BsxImacYellow</string>
 ```
 
 **Recommended Config changes**<br>
